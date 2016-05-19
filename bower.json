@@ -1,0 +1,26 @@
+{
+  "name": "livebin",
+  "description": "A simple and supercool live pastebin-like",
+  "main": "index.js",
+  "authors": [
+    "JM Cléry / @_jmpp"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "live",
+    "bin",
+    "pastebin"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ace-builds": "^1.2.3",
+    "jquery": "^2.2.3"
+  }
+}

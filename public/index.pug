@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Sharecode</title>
+
+  <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+
+<h1 class="text-center">Livebin</h1>
+
+if isEditor
+  <h3>Mode éditeur</h3>
+
+  <select name="language" id="language">
+    <option value="text" selected>Plain text</option>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="javascript">JavaScript</option>
+    <option value="php">PHP</option>
+  </select>
+
+<div class="code" id="code-area" spellcheck="false"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/vendor/jquery/dist/jquery.js"></script>
+<script src="/vendor/ace-builds/src-noconflict/ace.js"></script>
+<script>window.app = {}</script>
+<script src="scripts/app.js"></script>
+if isEditor
+  <script src="scripts/sender.js"></script>
+
+</body>
+</html>

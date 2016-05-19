@@ -1,0 +1,26 @@
+{
+  "name": "livebin",
+  "version": "0.0.1",
+  "description": "A simple and supercool live pastebin-like",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "live",
+    "bin",
+    "pastebin"
+  ],
+  "author": "JM Cléry / @_jmpp",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha7",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "morgan": "^1.7.0"
+  }
+}
